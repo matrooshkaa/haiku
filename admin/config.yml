@@ -1,8 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: matrooshkaa/haiku
   branch: main
+
 media_folder: "images"
 public_folder: "/images"
+
 collections:
   - name: "blog"
     label: "نوشته‌ها"
