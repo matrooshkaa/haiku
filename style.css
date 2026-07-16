@@ -1,9 +1,33 @@
+/* تنظیمات کلی صفحه */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* یک رنگ طوسی-آبی بسیار ملایم */
+    color: #4a5568; /* رنگ متن تیره و آرام */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
+/* کارت اصلی که محتوا داخلش قرار می‌گیرد */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
 h1 {
-  color: #333;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
 }
